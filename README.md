@@ -42,32 +42,8 @@ For builds targeting older versions of MacOS, build with with:  `MACOSX_DEPLOYME
 
 ## Python
 
-- Install [`maturin`](https://www.maturin.rs/installation) for python development and packaging.
-- Install `uniffi-bindgen` with `pip`
-- `maturin develop` will build your package
-- maturin expects you to use `virtualenv` to manage your virtual environment
+[Notes here](https://github.com/n0-computer/iroh-ffi/blob/main/README.python.md)
 
-### Building wheels
-
-Invoking `maturin build` will build a wheel in `target/wheels`.  This
-will likely only work on your specific platform. To build a portable
-wheel for linux use:
-
-```
-docker run --rm -v $(pwd):/mnt -w /mnt quay.io/pypa/manylinux2014_x86_64 /mnt/build_wheel.sh
-```
-
-### Example
-
-- Make sure the `iroh` is installed `pip install iroh`
-- Run with `python3 main.py --help`
-
-### Running the tests
-- activate your virtual env
-- Install `pytest` with `pip`
-- Install `pytest-asyncio` with `pip`
-- Run `maturin develop` if you haven't yet
-- Run `python -m pytest`
 
 # Kotlin
 [Notes here](https://github.com/n0-computer/iroh-ffi/blob/main/README.kotlin.md)
