@@ -42,8 +42,7 @@ For builds targeting older versions of MacOS, build with with:  `MACOSX_DEPLOYME
 
 ## Python
 
-[Notes here](https://github.com/n0-computer/iroh-ffi/blob/main/README.python.md)
-
+See the [Python README](https://github.com/n0-computer/iroh-ffi/blob/main/README.python.md) for general usage information. For details on development setup, building wheels and running the tests see the [developer docs](https://github.com/n0-computer/iroh-ffi/blob/main/DEVELOPERS.md#python).
 
 # Kotlin
 [Notes here](https://github.com/n0-computer/iroh-ffi/blob/main/README.kotlin.md)
